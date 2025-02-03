@@ -35,6 +35,10 @@ main {
     max-width: 300px;
 }
 
+.qrcodes a:hover {
+    background: black;
+}
+
 a {
     pointer-events: all;
     display: flex;
@@ -44,6 +48,9 @@ a {
     color: white;
     font-family: "Roboto", serif;
     font-weight: 100;
+    transition: .4s;
+    border-radius: 20px;
+    padding: 10px 0;
 }
 
 .qrcodes {
@@ -184,4 +191,21 @@ th {
 
 .click {
     font-weight: 400;
+}
+
+.section-text {
+    max-width: 500px;
+    font-weight: 400;
+}
+
+.section-text h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.section-text li {
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: left;
 }
