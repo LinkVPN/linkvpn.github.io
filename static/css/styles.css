@@ -180,9 +180,18 @@ th {
 }
 
 .section-tariffs {
-    margin-top: 10px;
+    background: #111111db;
+    border-radius: 10px;
+    padding: 10px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #63636370;
+}
 
 .tariffs-title {
     font-size: 23px;
@@ -191,15 +200,17 @@ th {
 
 .click {
     font-weight: 400;
+    padding: 0 10px;
 }
 
 .section-text {
-    max-width: 500px;
+    max-width: 480px;
     font-weight: 400;
+    padding: 20px;
 }
 
 .section-text h2 {
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     font-weight: 300;
 }
